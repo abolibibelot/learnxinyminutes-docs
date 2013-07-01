@@ -73,7 +73,7 @@ ThingsToBuy = [{apples, 10}, {pears, 6}, {milk, 3}].
 % of the list into `Y`.
 [FirstThing|OtherThingsToBuy] = ThingsToBuy.
 % FirstThing = {apples, 10}
-% OtherThingsToBuy = {pears, 6}, {milk, 3}
+% OtherThingsToBuy = [{pears, 6}, {milk, 3}]
 
 % There are no strings in Erlang. Strings are really just lists of integers.
 % Strings are enclosed in double quotation marks (`"`).
